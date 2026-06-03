@@ -55,7 +55,14 @@ const Footer = () => {
               <li className="flex flex-col sm:flex-row items-center sm:items-start gap-2 sm:gap-3">
                 <MapPin size={18} className="text-brand-gold shrink-0 mt-0.5" />
                 <div>
-                  <span>ul. Mikołaja Kopernika 12/7<br />40-064 Katowice</span>
+                  <a 
+                    href="https://www.google.com/maps/place/Miko%C5%82aja+Kopernika+12,+40-064+Katowice/@50.2548059,19.0120048,17z/data=!3m1!4b1!4m6!3m5!1s0x4716ce4671b00869:0x3ca5cc4c476fa406!8m2!3d50.2548025!4d19.0145797!16s%2Fg%2F11q2n77ngx?entry=ttu&g_ep=EgoyMDI2MDUzMS4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-brand-gold transition-colors"
+                  >
+                    ul. Mikołaja Kopernika 12/7<br />40-064 Katowice
+                  </a>
                   <div className="mt-2 pt-2 border-t border-brand-gold/10 text-[10px] text-gray-400">
                     <p>NIP: 6511639806</p>
                     <p>REGON: 384043894</p>
