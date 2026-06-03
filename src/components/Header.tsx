@@ -31,6 +31,10 @@ const Header = ({ isTransparent = false }: HeaderProps) => {
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 py-2 md:py-4 ${
         isScrolled || !isTransparent ? 'bg-brand-dark shadow-xl' : 'bg-transparent'
       }`}
+      style={{
+        paddingLeft: 'env(safe-area-inset-left)',
+        paddingRight: 'env(safe-area-inset-right)'
+      }}
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
         <a href="/BGLex/" className="hover:opacity-90 transition-opacity shrink-0">
