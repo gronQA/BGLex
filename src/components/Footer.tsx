@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="flex flex-col items-center sm:items-start">
+          <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
             <h4 className="text-brand-gold uppercase text-sm tracking-[0.2em] mb-6 font-bold">Na skróty</h4>
             <ul className="space-y-4">
               {[
@@ -30,7 +30,7 @@ const Footer = () => {
                 <li key={link.name}>
                   <a 
                     href={link.href} 
-                    className="text-gray-300 hover:text-brand-gold transition-colors duration-300 text-sm flex items-center group"
+                    className="text-gray-300 hover:text-brand-gold transition-colors duration-300 text-sm flex items-center justify-center sm:justify-start group"
                   >
                     <span className="w-0 h-[1px] bg-brand-gold mr-0 group-hover:w-3 group-hover:mr-2 transition-all"></span>
                     {link.name}
@@ -41,20 +41,20 @@ const Footer = () => {
           </div>
 
           {/* Contact Details */}
-          <div className="flex flex-col items-center sm:items-start">
-            <h4 className="text-brand-gold uppercase text-sm tracking-[0.2em] mb-6 font-bold text-center sm:text-left">Kontakt</h4>
+          <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
+            <h4 className="text-brand-gold uppercase text-sm tracking-[0.2em] mb-6 font-bold">Kontakt</h4>
             <ul className="space-y-4 text-sm text-gray-300">
-              <li className="flex items-start gap-3 group">
+              <li className="flex flex-col sm:flex-row items-center sm:items-start gap-1 sm:gap-3 group">
                 <Phone size={18} className="text-brand-gold shrink-0 mt-0.5" />
                 <a href="tel:+48507771073" className="hover:text-brand-gold transition-colors">+48 507 771 073</a>
               </li>
-              <li className="flex items-start gap-3 group max-w-[280px] sm:max-w-none">
+              <li className="flex flex-col sm:flex-row items-center sm:items-start gap-1 sm:gap-3 group max-w-[280px] sm:max-w-none">
                 <Mail size={18} className="text-brand-gold shrink-0 mt-0.5" />
                 <a href="mailto:adwokat.barbara.babka@gmail.com" className="hover:text-brand-gold transition-colors break-words">adwokat.barbara.babka@gmail.com</a>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex flex-col sm:flex-row items-center sm:items-start gap-2 sm:gap-3">
                 <MapPin size={18} className="text-brand-gold shrink-0 mt-0.5" />
-                <div className="text-center sm:text-left">
+                <div>
                   <span>ul. Mikołaja Kopernika 12/7<br />40-064 Katowice</span>
                   <div className="mt-2 pt-2 border-t border-brand-gold/10 text-[10px] text-gray-400">
                     <p>NIP: 6511639806</p>
