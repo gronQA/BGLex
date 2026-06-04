@@ -98,7 +98,7 @@ const Footer = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 text-[10px] text-gray-500 uppercase tracking-widest items-center">
             <a href="/BGLex/polityka-prywatnosci" className="hover:text-brand-gold transition-colors">Polityka prywatności</a>
-            <a href="https://gronqa.pl" target="_blank" rel="noopener noreferrer" className="hover:text-brand-gold transition-colors font-bold">Strona stworzona przez gronqa.pl</a>
+            <a href="https://gronka.pl" target="_blank" rel="noopener noreferrer" className="hover:text-brand-gold transition-colors font-bold">Strona stworzona przez gronka.pl</a>
           </div>
         </div>
       </div>
