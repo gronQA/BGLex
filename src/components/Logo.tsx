@@ -20,7 +20,7 @@ const Logo = () => {
           Barbara Babka
         </span>
         <div className="flex items-center justify-center w-full gap-2 md:gap-3 mt-0.5 md:mt-1">
-          <div className="hidden sm:block h-[0.5px] w-4 sm:w-6 md:w-8 bg-brand-gold/40"></div>
+          <div className="w-4 sm:w-6 md:w-8 h-[0.5px] bg-brand-gold/40"></div>
           <span 
             className="uppercase whitespace-nowrap tracking-[0.2em] sm:tracking-[0.4em] font-medium text-[6px] sm:text-[7px] md:text-[8px] landscape:text-[6px] landscape:lg:text-[8px]" 
             style={{ 
@@ -30,7 +30,7 @@ const Logo = () => {
           >
             Adwokat
           </span>
-          <div className="hidden sm:block h-[0.5px] w-4 sm:w-6 md:w-8 bg-brand-gold/40"></div>
+          <div className="w-4 sm:w-6 md:w-8 h-[0.5px] bg-brand-gold/40"></div>
         </div>
       </div>
     </div>

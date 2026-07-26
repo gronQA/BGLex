@@ -42,7 +42,7 @@ const Header = ({ isTransparent = false }: HeaderProps) => {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8 landscape:space-x-3 landscape:lg:space-x-8">
+        <nav className="hidden lg:flex items-center space-x-8 landscape:space-x-3 landscape:lg:space-x-8">
           {navLinks.map((link) => (
             <a 
               key={link.name} 
@@ -63,7 +63,7 @@ const Header = ({ isTransparent = false }: HeaderProps) => {
 
         {/* Mobile Toggle */}
         <button 
-          className="md:hidden text-brand-gold p-2"
+          className="lg:hidden text-brand-gold p-2"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -77,7 +77,7 @@ const Header = ({ isTransparent = false }: HeaderProps) => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-brand-dark border-t border-brand-gold/20 overflow-hidden max-h-[80vh] overflow-y-auto"
+            className="lg:hidden bg-brand-dark border-t border-brand-gold/20 overflow-hidden max-h-[80vh] overflow-y-auto"
           >
             <div className="flex flex-col p-6 space-y-4">
               {navLinks.map((link) => (
