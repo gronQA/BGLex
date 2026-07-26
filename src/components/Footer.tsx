@@ -94,7 +94,7 @@ const Footer = () => {
 
         <div className="pt-8 border-t border-brand-gold/10 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
           <p className="text-xs text-gray-500">
-            © {currentYear} Barbara Babka Adwokat. Wszelkie prawa zastrzeżone.
+            © {currentYear} Kancelaria Adwokacka Adwokat Barbara Babka. Wszelkie prawa zastrzeżone.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 text-[10px] text-gray-500 uppercase tracking-widest items-center">
             <a href="/BGLex/polityka-prywatnosci" className="hover:text-brand-gold transition-colors">Polityka prywatności</a>
