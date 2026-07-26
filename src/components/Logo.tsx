@@ -5,8 +5,8 @@ const Logo = () => {
     <div className="flex flex-row md:flex-col items-center justify-center font-serif text-brand-gold gap-3 md:gap-0">
       <div className="md:mb-2 shrink-0">
         <img 
-          src="/BGLex/logo_bglex.png" 
-          alt="BG LEX Logo" 
+          src="/BGLex/logo_transparent.png" 
+          alt="Barbara Babka Logo" 
           className="h-10 sm:h-12 md:h-20 w-auto object-contain"
         />
       </div>
@@ -17,7 +17,7 @@ const Logo = () => {
             color: '#C99655'
           }}
         >
-          BG LEX
+          Barbara Babka
         </span>
         <div className="flex items-center justify-center w-full gap-2 md:gap-3 mt-0.5 md:mt-1">
           <div className="hidden sm:block h-[0.5px] w-4 sm:w-6 md:w-8 bg-brand-gold/40"></div>
@@ -28,7 +28,7 @@ const Logo = () => {
               color: '#C99655'
             }}
           >
-            Kancelaria Adwokacka
+            Adwokat
           </span>
           <div className="hidden sm:block h-[0.5px] w-4 sm:w-6 md:w-8 bg-brand-gold/40"></div>
         </div>

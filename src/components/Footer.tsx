@@ -46,7 +46,7 @@ const Footer = () => {
             <ul className="space-y-4 text-sm text-gray-300">
               <li className="flex flex-col sm:flex-row items-center sm:items-start gap-1 sm:gap-3 group">
                 <Phone size={18} className="text-brand-gold shrink-0 mt-0.5" />
-                <a href="tel:+48507771073" className="hover:text-brand-gold transition-colors">+48 507 771 073</a>
+                <a href="tel:+48790772130" className="hover:text-brand-gold transition-colors">+48 790 772 130</a>
               </li>
               <li className="flex flex-col sm:flex-row items-center sm:items-start gap-1 sm:gap-3 group max-w-[280px] sm:max-w-none">
                 <Mail size={18} className="text-brand-gold shrink-0 mt-0.5" />
@@ -94,7 +94,7 @@ const Footer = () => {
 
         <div className="pt-8 border-t border-brand-gold/10 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
           <p className="text-xs text-gray-500">
-            © {currentYear} BG LEX Kancelaria Adwokacka. Wszelkie prawa zastrzeżone.
+            © {currentYear} Barbara Babka Adwokat. Wszelkie prawa zastrzeżone.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 text-[10px] text-gray-500 uppercase tracking-widest items-center">
             <a href="/BGLex/polityka-prywatnosci" className="hover:text-brand-gold transition-colors">Polityka prywatności</a>
