@@ -4,8 +4,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://gronqa.github.io',
-  base: '/BGLex',
+  site: 'https://adwokat-babka.pl',
   integrations: [react(), tailwind()],
   build: {
     assets: 'assets' // CRITICAL for GitHub Pages: Avoids underscore folder issues

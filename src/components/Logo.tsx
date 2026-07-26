@@ -5,7 +5,7 @@ const Logo = () => {
     <div className="flex flex-row md:flex-col landscape:flex-row landscape:lg:flex-col items-center justify-center font-serif text-brand-gold gap-3 md:gap-0 landscape:gap-2 landscape:lg:gap-0">
       <div className="md:mb-2 landscape:mb-0 landscape:lg:mb-2 shrink-0">
         <img 
-          src="/BGLex/logo_transparent.png" 
+          src="/logo_transparent.png" 
           alt="Barbara Babka Logo" 
           className="h-10 sm:h-12 md:h-20 landscape:h-8 landscape:lg:h-20 w-auto object-contain"
         />

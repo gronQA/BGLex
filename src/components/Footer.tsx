@@ -22,10 +22,10 @@ const Footer = () => {
             <h4 className="text-brand-gold uppercase text-sm tracking-[0.2em] mb-6 font-bold">Na skróty</h4>
             <ul className="space-y-4">
               {[
-                { name: 'O Kancelarii', href: '/BGLex/o-kancelarii' },
-                { name: 'Specjalizacje', href: '/BGLex/#specjalizacje' },
-                { name: 'Zasady współpracy', href: '/BGLex/zasady-wspolpracy' },
-                { name: 'Blog', href: '/BGLex/blog' }
+                { name: 'O Kancelarii', href: '/o-kancelarii' },
+                { name: 'Specjalizacje', href: '/#specjalizacje' },
+                { name: 'Zasady współpracy', href: '/zasady-wspolpracy' },
+                { name: 'Blog', href: '/blog' }
               ].map((link) => (
                 <li key={link.name}>
                   <a 
@@ -97,7 +97,7 @@ const Footer = () => {
             © {currentYear} Kancelaria Adwokacka Adwokat Barbara Babka. Wszelkie prawa zastrzeżone.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 text-[10px] text-gray-500 uppercase tracking-widest items-center">
-            <a href="/BGLex/polityka-prywatnosci" className="hover:text-brand-gold transition-colors">Polityka prywatności</a>
+            <a href="/polityka-prywatnosci" className="hover:text-brand-gold transition-colors">Polityka prywatności</a>
             <a href="https://gronka.pl" target="_blank" rel="noopener noreferrer" className="hover:text-brand-gold transition-colors font-bold">Strona stworzona przez gronka.pl</a>
           </div>
         </div>

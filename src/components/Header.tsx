@@ -20,10 +20,10 @@ const Header = ({ isTransparent = false }: HeaderProps) => {
   }, []);
 
   const navLinks = [
-    { name: 'O Kancelarii', href: '/BGLex/o-kancelarii' },
-    { name: 'Specjalizacje', href: '/BGLex/#specjalizacje' },
-    { name: 'Zasady współpracy', href: '/BGLex/zasady-wspolpracy' },
-    { name: 'Blog', href: '/BGLex/blog' },
+    { name: 'O Kancelarii', href: '/o-kancelarii' },
+    { name: 'Specjalizacje', href: '/#specjalizacje' },
+    { name: 'Zasady współpracy', href: '/zasady-wspolpracy' },
+    { name: 'Blog', href: '/blog' },
   ];
 
   return (
@@ -37,7 +37,7 @@ const Header = ({ isTransparent = false }: HeaderProps) => {
       }}
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
-        <a href="/BGLex/" className="hover:opacity-90 transition-opacity shrink-0">
+        <a href="/" className="hover:opacity-90 transition-opacity shrink-0">
           <Logo />
         </a>
 
@@ -54,7 +54,7 @@ const Header = ({ isTransparent = false }: HeaderProps) => {
             </a>
           ))}
           <a 
-            href="/BGLex/#kontakt" 
+            href="/#kontakt" 
             className="border border-brand-gold text-brand-gold px-6 py-2 landscape:px-3 landscape:py-1 landscape:lg:px-6 landscape:lg:py-2 uppercase text-[10px] tracking-[0.2em] landscape:tracking-wider landscape:lg:tracking-[0.2em] hover:bg-brand-gold hover:text-brand-dark transition-all duration-300 text-center whitespace-nowrap"
           >
             Umów spotkanie
@@ -91,7 +91,7 @@ const Header = ({ isTransparent = false }: HeaderProps) => {
                 </a>
               ))}
               <a 
-                href="/BGLex/#kontakt" 
+                href="/#kontakt" 
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="bg-brand-gold text-brand-dark text-center py-3 uppercase text-xs tracking-[0.2em] font-bold"
               >
