@@ -28,7 +28,7 @@ const Header = ({ isTransparent = false }: HeaderProps) => {
 
   return (
     <header 
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 py-2 md:py-4 ${
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 py-2 md:py-4 landscape:py-1 landscape:md:py-2 landscape:lg:py-4 ${
         isScrolled || !isTransparent ? 'bg-brand-dark shadow-xl' : 'bg-transparent'
       }`}
       style={{
@@ -42,12 +42,12 @@ const Header = ({ isTransparent = false }: HeaderProps) => {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-8 landscape:space-x-3 landscape:lg:space-x-8">
           {navLinks.map((link) => (
             <a 
               key={link.name} 
               href={link.href}
-              className="relative group text-white uppercase text-[10px] lg:text-xs tracking-widest font-light py-2"
+              className="relative group text-white uppercase text-[10px] lg:text-xs tracking-widest landscape:tracking-wider landscape:lg:tracking-widest font-light py-2 whitespace-nowrap"
             >
               {link.name}
               <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-brand-gold transition-all duration-300 group-hover:w-full"></span>
@@ -55,7 +55,7 @@ const Header = ({ isTransparent = false }: HeaderProps) => {
           ))}
           <a 
             href="/BGLex/#kontakt" 
-            className="border border-brand-gold text-brand-gold px-6 py-2 uppercase text-[10px] tracking-[0.2em] hover:bg-brand-gold hover:text-brand-dark transition-all duration-300 text-center"
+            className="border border-brand-gold text-brand-gold px-6 py-2 landscape:px-3 landscape:py-1 landscape:lg:px-6 landscape:lg:py-2 uppercase text-[10px] tracking-[0.2em] landscape:tracking-wider landscape:lg:tracking-[0.2em] hover:bg-brand-gold hover:text-brand-dark transition-all duration-300 text-center whitespace-nowrap"
           >
             Umów spotkanie
           </a>
